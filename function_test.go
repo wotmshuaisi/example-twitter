@@ -29,7 +29,7 @@ func TestSendTweet(t *testing.T) {
 		Data: "Test Twitter",
 	}
 
-	_, err := SentTweet(e, functions.Context{})
+	_, err := SendTweet(e, functions.Context{})
 	if err != nil {
 		log.Println(err)
 		t.Fatal()

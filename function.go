@@ -29,8 +29,8 @@ func getClient() (*twitter.Client, error) {
 	return twitter.NewClient(httpClient), nil
 }
 
-// SentTweet serverless function use to send tweets
-func SentTweet(event functions.Event, ctx functions.Context) (string, error) {
+// SendTweet serverless function use to send tweets
+func SendTweet(event functions.Event, ctx functions.Context) (string, error) {
 	log.Printf("%+v\n", event)
 	c, err := getClient()
 	if err != nil {
