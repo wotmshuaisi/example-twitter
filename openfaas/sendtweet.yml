@@ -6,4 +6,3 @@ functions:
     lang: go
     handler: ./sendtweet
     image: sendtweet:latest
-    imagePullPolicy: Never
