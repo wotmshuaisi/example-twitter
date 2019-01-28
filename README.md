@@ -9,7 +9,7 @@ kubeless function deploy sendtweet --runtime go1.10 --handler kubeless.SendTweet
 
 | params | describe |
 | --- | --- |
-| AKEY | API key |
-| ASECRET | API secret key |
+| CKEY | API key |
+| CSECRET | API secret key |
 | ATOKEN | Access token |
 | ASECRET | Access token secret |
